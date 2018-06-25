@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "HTMLParser, un plugin para leer y transformar documentos HTML"
+title:  "HTMLParser, a plugin to traverse and manage HTML documents"
 date:   2017-01-20 21:07:00 +0200
 categories: jekyll
 ---
-[HTMLParser](https://github.com/soloproyectos-js/jquery.htmlparser) es un plugin para leer, manipular, arreglar y transformar documentos HTML. Origininalmente fue desarrollado por [Erik Arvidsson](http://erik.eae.net/simplehtmlparser/simplehtmlparser.js), pero necesitaba un plugin en jQuery y quería solucionar algunos aspectos del código fuente.
+[HTMLParser](https://github.com/soloproyectos-js/jquery.htmlparser) is a plugin to traverse, manage, fix and transform HTML documents. It was originally developed by [Erik Arvidsson](http://erik.eae.net/simplehtmlparser/simplehtmlparser.js) and I adapted it as a jQuery plugin and fixed some issues.
 
-**Leer y manipular documentos nunca fue tan fácil :)**
+**Traversing and managing HTML documents was never so easy!**
 ```js
 // Example 2: parses an HTML document
 var html =
