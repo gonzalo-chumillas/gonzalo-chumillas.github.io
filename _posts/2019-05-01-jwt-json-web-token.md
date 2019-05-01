@@ -1,6 +1,7 @@
 ---
 title: JWT (JSON Web Token)
 ---
+
 En esencia JWT (JSON Web Token) es un sistema para generar "tokens de acceso" sin necesidad de almacenarlos en el propio servidor, con las ventajas que ello conlleva. Cuando el usuario accede por primera vez al sistema, normalmente indicando su usuario y contraseña, el sistema le otorga un "token" debidamente firmado. El usuario deberá guardar ese "token" para su posterior uso.
 
 A efectos prácticos un "token" no se diferencia mucho de la pulserita que nos entregan al acceder a una discoteca. La primera vez mostramos nuestro carnet de identidad, para verificar que somos mayores de edad, y posteriormente usamos la pulserita para entrar y salir del establecimiento ágilmente. ¡Pero ojo! la pulserita (token) deberá estar debidamente sellada, no vaya a ser que se cuele algún tramposo.
