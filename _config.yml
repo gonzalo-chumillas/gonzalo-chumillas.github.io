@@ -111,13 +111,19 @@ analytics:
 author:
   name             : "Gonzalo Chumillas"
   avatar           : /assets/images/profile.jpg
-  bio              : "Full Stack developer"
+  bio              : "Desarrollador full stack y fotógrafo entusiasta"
   location         : "Ciudad Real, España"
   email            :
   links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/gchumillas"
+    - label: "LinkedIn"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.linkedin.com/in/gonzalo-chumillas-5303b5163/?locale=es_ES"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: mailto:gonzalo.chumillas@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -127,9 +133,6 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
