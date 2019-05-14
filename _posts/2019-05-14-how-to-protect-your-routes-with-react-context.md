@@ -58,14 +58,14 @@ Que a su vez será usada por la clase `Main` para proporcionar un contexto al re
 // Main.js
 render => () {
   return (
-    <Context.Provider value={
+    <Context.Provider value={% raw %}{{{% endraw %}
       token,
       signIn: this.signIn,
       signOut: this.signOut,
       http,
       isPending,
       setHttpError: this.setHttpError
-    }>
+    {% raw %}}}{% endraw %}>
       {/* ... more components ... */}
     </Context.Provider>
   )
