@@ -110,7 +110,7 @@ export function withContext(Component) {
 }
 ```
 
-La función anterior consiste en un componente [HOC](https://reactjs.org/docs/higher-order-components.html) y nos permite 'inyectar' determinadas propiedades a los componentes. En nuestro caso, inyectaremos las propiedades del contexto definidas en la clase `Main`:
+La función anterior consiste en un componente [HOC](https://reactjs.org/docs/higher-order-components.html) y nos permite 'inyectar' determinadas propiedades. En nuestro caso, inyectaremos las propiedades del contexto definidas en la clase `Main`:
 
 ```js
 // views/Login.js
