@@ -156,6 +156,6 @@ Proteger una ruta es tan sencillo como examinar la propiedad `token` y mostrar l
 
 Como podéis apreciar la idea subyacente es muy sencilla. Simplemente guardamos el token en un contexto que posteriormente será usado por el resto de los componentes de menor nivel. Quizá la parte más compleja sea el uso de la técnica [HOC](https://reactjs.org/docs/higher-order-components.html) para inyectar las propiedades del contexto a los "componentes hijos".
 
-Por cierto, no hemos necesitado usar Redux ni su tan controvertida [única fuente del conocimiento](https://redux.js.org/introduction/three-principles#single-source-of-truth).
+Por cierto, no hemos necesitado usar Redux ni su tan controvertida [fuente única del conocimiento](https://redux.js.org/introduction/three-principles#single-source-of-truth).
 
 Toma ya, Chuck Norris!
