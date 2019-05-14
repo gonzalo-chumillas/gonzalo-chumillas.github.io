@@ -2,9 +2,9 @@
 title: Cómo proteger tus rutas con React.Context
 ---
 
-En un [artículo anterior](https://gonzalo-chumillas.github.io/jwt-json-web-token/) analizamos una aplicación REST que suministraba "tokens" para acceder al sistema. Cuando el cliente se identificaba con éxito en el sistema, éste le proporcionaba un token que servía como credencial para futuras peticiones.
+En un [artículo anterior](https://gonzalo-chumillas.github.io/jwt-json-web-token/) analizamos una aplicación REST que otorgaba "tokens de acceso". Cuando el cliente se identificaba con éxito en el sistema, éste le proporcionaba un token que servía como credencial para futuras peticiones.
 
-Y en esta ocasión vamos a analizar la contraparte. Es decir, una aplicación desarrollada en [React](https://reactjs.org/) que se identifica en el sistema anterior para obtener un token de acceso. Y en particular usaremos `React.Context` para almacenar dicho token y proporcionarlo a las diferentes partes o componentes de la aplicación.
+Y en esta ocasión vamos a analizar la contraparte. Es decir, una aplicación desarrollada en [React](https://reactjs.org/) que se identifica en el sistema anterior y obtiene un token de acceso. Y en particular usaremos `React.Context` para almacenar dicho token y proporcionarlo a los diferentes componentes de la aplicación.
 
 Para situarnos, [React.Context](https://reactjs.org/docs/context.html) es una técnica de programación que nos permite transmitir información desde los componentes de mayor nivel (componentes padres) hasta los de menor nivel (componentes hijos) sin necesidad de pasarlos como parámetros en los constructores.
 
