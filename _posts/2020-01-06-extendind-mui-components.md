@@ -19,7 +19,7 @@ But that component is not easy to use, since we have to use it in combination wi
   label="Language"
   value={language}
   options={% raw  %} {{ value: 'en', label: 'English', value: 'es', label: 'Español' }} {% endraw  %}
-  onChange={value => setLanguage(value)}
+  onChange={setLanguage}
 />
 ```
 
