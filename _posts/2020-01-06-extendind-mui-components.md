@@ -18,7 +18,7 @@ But that component is not easy to use, since we have to use it in combination wi
 <SelectField
   label="Language"
   value={language}
-  options={% raw  %} {{ value: 'en', label: 'English', value: 'es', label: 'Español' }} {% endraw  %}
+  options={% raw  %}{{ value: 'en', label: 'English', value: 'es', label: 'Español' }}{% endraw  %}
   onChange={setLanguage}
 />
 ```
