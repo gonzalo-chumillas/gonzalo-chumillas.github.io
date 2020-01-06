@@ -7,7 +7,7 @@ This will be the first of a serie of brief articles related to the web developme
 As a reference, we'll use the following project:<br>
 [https://github.com/gchumillas/crud](https://github.com/gchumillas/crud)
 
-It consists of a typical CRUD application written in [TypeScript](https://www.typescriptlang.org/). That is, an application to [C]reate, [R]ead, [U]pdate or [D]elete items. And despite its simplicity, it contains several interesting aspects that we could address.
+It consists of a typical CRUD application written in [TypeScript](https://www.typescriptlang.org/). That is, an application to [C]reate, [R]ead, [U]pdate or [D]elete items. And despite its simplicity, it contains some interesting aspects that we could address.
 
 Let's say that we want to create a custom "Select Field". There's already a `Select` component in Material-UI:<br>
 [https://material-ui.com/components/selects/](https://material-ui.com/components/selects/)
