@@ -24,7 +24,7 @@ But that component is not easy to use, since we have to use it in combination wi
 />
 ```
 
-That is, we would like to declare the component in a single line. But, on the other hand, we'd like to preserve the original properties of the `Select` component. How could we achieve that in a simple way? Here's it is:
+That is, we would like to declare the component in a single line. But, on the other hand, we'd like to preserve the original properties of the `Select` component. How could we achieve that in a simple way? Here it is:
 
 ```jsx
 import React from 'react'
