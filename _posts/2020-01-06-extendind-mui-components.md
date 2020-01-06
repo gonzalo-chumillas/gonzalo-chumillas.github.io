@@ -2,7 +2,7 @@
 title: Extending MUI components [EN]
 ---
 
-This will be the first of a serie of brief articles related to the web development. And in this particular case we'll talk about "extending" [Material-UI](https://material-ui.com/) components. Note that I wrote "extending" (double quoted) on purpose, since we'll actually use the "composition" approach, which consists of an alternative way to change or "extend" the default behavior of a component or class.
+This will be the first of a serie of brief articles related to the web development. And in this particular case we'll talk about "extending" [Material-UI](https://material-ui.com/) components. Note that I wrote "extending" (double quoted) on purpose, since we actually will use the "composition" approach, which consists of an alternative way to change or "extend" the default behavior of a component or class.
 <!-- TODO: talk about the advantages of using composition over inheritance -->
 
 To achieve our goal we'll use the following project:<br>
