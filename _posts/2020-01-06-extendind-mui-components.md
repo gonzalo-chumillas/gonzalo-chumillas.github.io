@@ -49,5 +49,6 @@ export default ({ label, value, options, onChange }: Props) => (
 
 In the previous example we used `SelectProps` as the base type. And we added the `label` and `options` properties. We also replaced the `onChange` property by a different one. Note the use of [Omit](https://www.typescriptlang.org/docs/handbook/utility-types.html#omittk) and [&](https://www.typescriptlang.org/docs/handbook/advanced-types.html#intersection-types).
 
-And that's all, folks! You'll find more examples in the next folder:<br>
+And that's all, folks! You'll find more examples in the next folders:<br>
 [https://github.com/gchumillas/crud/tree/master/src/components/fields](https://github.com/gchumillas/crud/tree/master/src/components/fields)
+[https://github.com/gchumillas/crud/tree/master/src/components/buttons](https://github.com/gchumillas/crud/tree/master/src/components/buttons)
