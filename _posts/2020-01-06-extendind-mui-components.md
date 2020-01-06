@@ -12,7 +12,7 @@ It consists of a typical CRUD application written in [TypeScript](https://www.ty
 Let's say that we want to create a custom "Select Field". There's already a `Select` component in Material-UI:<br>
 [https://material-ui.com/components/selects/](https://material-ui.com/components/selects/)
 
-But that component is not easy to use, since we have to use it in combination with other components, such us `FormControl`, `InputLabel`, `MenuItem`, etc. Instead, we would like to create a component similar to `TextField`. Something like this:
+But that component is not easy to use, since we have to use it in combination with other components, such as `FormControl`, `InputLabel`, `MenuItem`, etc. Instead, we would like to create a component similar to `TextField`. Something like this:
 
 ```jsx
 <SelectField
