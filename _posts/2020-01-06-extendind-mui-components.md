@@ -7,7 +7,7 @@ This will be the first of a serie of brief articles related to the web developme
 As a reference, we'll use the following project:<br>
 [https://github.com/gchumillas/crud](https://github.com/gchumillas/crud)
 
-It consists of a typical CRUD application written in [React](https://reactjs.org/) and [TypeScript](https://www.typescriptlang.org/). That is, an application to [C]reate, [R]ead, [U]pdate or [D]elete items. And despite its simplicity, it contains some interesting aspects that we could address.
+It consists of a typical CRUD application written in [React](https://reactjs.org/) and [TypeScript](https://www.typescriptlang.org/). That is, an application to [C]reate, [R]ead, [U]pdate or [D]elete items. And despite its simplicity, it contains some interesting topics that we could address in the next articles.
 
 Let's say that we want to create a custom "Select Field". There's already a `Select` component in Material-UI:<br>
 [https://material-ui.com/components/selects/](https://material-ui.com/components/selects/)
@@ -29,6 +29,8 @@ But that component is not easy to use, since we have to use it in combination wi
 That is, we'd like to be able to declare the component in a single line. But, on the other hand, **we want to preserve the original properties of the `Select` component**. How could we achieve that in a simple way? Here it is:
 
 ```jsx
+// src/components/fields/SelectField.tsx
+
 import React from 'react'
 import {
   Select, SelectProps,
