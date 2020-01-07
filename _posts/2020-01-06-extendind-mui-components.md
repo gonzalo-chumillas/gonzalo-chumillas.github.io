@@ -18,16 +18,22 @@ But that component is not easy to use, since we have to use it in combination wi
 <SelectField
   label="Language"
   value={language}
-  options={% raw  %}{{ value: 'en', label: 'English', value: 'es', label: 'Español' }}{% endraw  %}
   onChange={setLanguage}
+  options={% raw  %}{[
+    { value: 'en', label: 'English' },
+    { value: 'es', label: 'Español' }
+  ]}{% endraw  %}
 />
 ```
 
-That is, we'd like to be able to declare the component in a single line. But, on the other hand, we want to preserve the original properties of the `Select` component. How could we achieve that in a simple way? Here it is:
+That is, we'd like to be able to declare the component in a single line. But, on the other hand, **we want to preserve the original properties of the `Select` component**. How could we achieve that in a simple way? Here it is:
 
 ```jsx
 import React from 'react'
-import { Select, SelectProps, FormControl, InputLabel, MenuItem } from '@material-ui/core'
+import {
+  Select, SelectProps,
+  FormControl, InputLabel, MenuItem
+} from '@material-ui/core'
 
 type Props = Omit<SelectProps, 'onChange'> & {
   label?: string,
@@ -35,7 +41,9 @@ type Props = Omit<SelectProps, 'onChange'> & {
   onChange?: (value: string) => void
 }
 
-export default ({ label, value, options, onChange, ...rest }: Props) => (
+export default ({
+  label, value, options, onChange, ...rest
+}: Props) => (
   <FormControl fullWidth>
     {label && <InputLabel>{label}</InputLabel>}
     <Select
@@ -50,7 +58,7 @@ export default ({ label, value, options, onChange, ...rest }: Props) => (
 )
 ```
 
-In the previous example we used `SelectProps` as the base type. And we added the `label` and `options` properties. We also replaced the `onChange` property by a different one. Note the use of the [Omit utility](https://www.typescriptlang.org/docs/handbook/utility-types.html#omittk), the [intersection type (&)](https://www.typescriptlang.org/docs/handbook/advanced-types.html#intersection-types) and the [{...rest} parameter](https://www.typescriptlang.org/docs/handbook/functions.html#rest-parameters).
+In the previous example we used `SelectProps` as the base type. And we added the `label` and `options` properties. We also replaced the `onChange` property by a different one. Note the use of the [Omit](https://www.typescriptlang.org/docs/handbook/utility-types.html#omittk) utility, the [intersection type](https://www.typescriptlang.org/docs/handbook/advanced-types.html#intersection-types) (&) and the [{...rest}](https://www.typescriptlang.org/docs/handbook/functions.html#rest-parameters) parameter.
 
 And that's all, folks! You'll find more examples in the next folders:<br>
 [https://github.com/gchumillas/crud/tree/master/src/components/fields](https://github.com/gchumillas/crud/tree/master/src/components/fields)
