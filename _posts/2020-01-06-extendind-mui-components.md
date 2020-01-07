@@ -44,9 +44,9 @@ type Props = Omit<SelectProps, 'onChange'> & {
 }
 
 export default ({
-  label, value, options, onChange, ...rest
+  label, value, options, onChange, fullWidth = true, ...rest
 }: Props) => (
-  <FormControl fullWidth>
+  <FormControl fullWidth={fullWidth}>
     {label && <InputLabel>{label}</InputLabel>}
     <Select
       value={value}
