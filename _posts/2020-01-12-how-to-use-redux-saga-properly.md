@@ -18,6 +18,6 @@ So having one or two "global variables" is good. Having lot of them is not good.
 
 ## Rule #2:
 
-**There's not rule number two!**
+**There's no rule number two!**
 
 And that's all, folks!
