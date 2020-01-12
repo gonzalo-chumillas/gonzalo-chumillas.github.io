@@ -12,7 +12,7 @@ Now that we now what Redux is, let's talk about two important rules.
 
 As I commented earlier, the source code is better understood if we declare "local variables". Also, different components may be using the same "global variables" for different purposes and that may lead to instability problems. That's the reason why declaring "global variables" is not a good idea, no matter if you are a front-end or a back-end developer.
 
-So having a few "global variables" is good. Having a lot of them is not good.
+So having a few of "global variables" is good. Having a lot of them is not good.
 
 ## Rule #2: There's no rule number two!
 
