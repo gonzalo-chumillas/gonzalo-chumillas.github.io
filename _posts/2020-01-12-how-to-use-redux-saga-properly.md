@@ -8,16 +8,12 @@ That's what Redux is. It's a system that guarantees the effective communication 
 
 Now that we now what Redux is, let's talk about two important rules.
 
-## Rule #1:
-
-**Use Redux moderately**
+## Rule #1: Use Redux moderately
 
 As I commented earlier, the source code is better understood if we declare "local variables". Also, different components may have using the same "global variables" for different purposes and that may lead to instability issues. That's the reason why declaring "global variables" is not a good idea. No matter if you are a front-end or a back-end developer.
 
 So having one or two "global variables" is good. Having lot of them is not good.
 
-## Rule #2:
-
-**There's no rule number two!**
+## Rule #2: There's no rule number two!
 
 And that's all, folks!
