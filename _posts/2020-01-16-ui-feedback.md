@@ -158,6 +158,6 @@ In the previous example we have used some useful libraries:
 1. [Material-UI](https://github.com/mui-org/material-ui): a collection of visual components.
 2. [react-i18next](https://github.com/i18next/react-i18next): a translation system.
 3. [react-use](https://github.com/streamich/react-use): a collection of React hooks.
-4. [Lodash](https://lodash.com): a library that expand the capabilities of JavaScript.
+4. [Lodash](https://lodash.com): a library that expands the capabilities of JavaScript.
 
 And that's all folks!
