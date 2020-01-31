@@ -12,7 +12,7 @@ That process (action - reaction) is what I generally refer to as "UI feedback". 
 
 ## And why is it so important to notify the user?
 
-Let's imagine that we are withdrawing money from an ATM and suddenly the screen freezes. It'd be reasonable to think that something went wrong. But it could also mean that our request is still being processed. In that case, this stressful situation could be avoided by displaying a loading icon.
+Let's imagine that we are withdrawing money from an ATM and suddenly the screen freezes. It'd be reasonable to think that something went wrong. But it could also mean that our request is still being processed. In any case, this stressful situation could be avoided by displaying a loading icon.
 
 ## And how should we proceed?
 
