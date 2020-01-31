@@ -6,13 +6,13 @@ title: UI feedback [EN]
 >
 > —Newton's Third Law
 
-When a user performs an "action", such as clicking on a button, he expects the interfaz to respond with a "reaction". Otherwise the user might think that the action never took place.
+When a user performs an "action", such as clicking on a button, he expects the interface to respond with a "reaction". Otherwise the user might think that the action never took place.
 
 That process (action - reaction) is what I generally refer to as "UI feedback". And I consider it a very important aspect in the development of user interfaces.
 
 ## And why is it so important to notify the user?
 
-Let's imagine that we are withdrawing money from an ATM and suddenly the screen freezes. It'd be reasonable to think that something went wrong. But it could also mean that our request is still being processed. In that case, this stressful situation could avoided by displaying a loading icon.
+Let's imagine that we are withdrawing money from an ATM and suddenly the screen freezes. It'd be reasonable to think that something went wrong. But it could also mean that our request is still being processed. In that case, this stressful situation could be avoided by displaying a loading icon.
 
 ## And how should we proceed?
 
