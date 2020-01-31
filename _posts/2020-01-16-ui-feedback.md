@@ -141,7 +141,7 @@ const message = _.get(state.error, 'response.message')
 const status = _.get(state.error, 'response.status')
 ```
 
-**Do not write literal messages. Use a translator system instead.** In our case we use the [i18next](https://www.i18next.com/) library:
+**Do not write literal messages. Use a translation system instead.** In our case we use the [i18next](https://www.i18next.com/) library:
 
 ```jsx
 // WRONG !!!
