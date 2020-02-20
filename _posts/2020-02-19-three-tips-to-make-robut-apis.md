@@ -1,5 +1,5 @@
 ---
-title: Three tips to make robut APIs [EN]
+title: Three tips to make robust APIs [EN]
 ---
 
 You can't even imagine how important it is to have a good API. A bad API could delay or even make it impossible to develop a client-side application. That is, a good API will make your front-end developers happy and productive.
