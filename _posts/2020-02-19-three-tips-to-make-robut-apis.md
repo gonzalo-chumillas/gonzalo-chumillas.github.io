@@ -14,7 +14,7 @@ Nobody wants "everything". Most of the time, clients only demand specific inform
 
 ## Be predictable
 
-Let's be honest. A "client-side" application is not a "clever-side" application. For every request (`[METHOD] /path/to/doc`) the client expects the same type of document. Otherwise, the client may be prone to errors.
+Let's be honest. A "client-side" application is not a "clever-side" application. For every request (`[METHOD] /path/to/doc`) the client expects the same type of document. Otherwise, the client could be prone to errors.
 
 ![Sample 2](/assets/images/posts/2020-02-19-three-tips-to-make-robut-apis/be-predictable.png)
 
