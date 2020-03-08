@@ -1,5 +1,5 @@
 ---
-title: Extending MUI components [EN]
+title: Extending Material-UI components [EN]
 ---
 
 This will be the first of a series of brief articles related to the web development. And in this particular case we'll talk about "extending" [Material-UI](https://material-ui.com/) components. Note that I wrote "extending" (double quoted) on purpose, since we'll actually use the "composition" approach, which consists of an alternative way to change or "extend" the default behavior of a component or class.
