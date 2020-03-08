@@ -1,5 +1,5 @@
 ---
-title: UI feedback [EN]
+title: UI feedback
 ---
 
 > For every action, there is an equal and opposite reaction.
