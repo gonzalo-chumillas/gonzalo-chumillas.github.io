@@ -19,7 +19,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "es-ES"
-title                    : "Talk is cheap. Show me the code."
+title                    : "Talk is cheap.
+Show me the code."
 title_separator          : "-"
 name                     : "Gonzalo Chumillas"
 description              : "Programming things."
